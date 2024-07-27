@@ -2,6 +2,7 @@ import tiktoken
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
+import numpy as np
 
 
 class GPTDatasetV1(Dataset):
