@@ -9,13 +9,13 @@
         "instruction": "What type of cloud is typically associated with thunderstorms?",
         "input": "",
         "output": "The type of cloud typically associated with thunderstorms is cumulonimbus.",
-        "model_response": "A thunderstorm is typically associated with a type of cloud called a cumulus."
+        "model_response": "The type of cloud associated with thunderstorms is a cumulus cloud."
     },
     {
         "instruction": "Name the author of 'Pride and Prejudice'.",
         "input": "",
         "output": "Jane Austen.",
-        "model_response": "The author of 'Pride and Prejudice' is George Bernard Shaw."
+        "model_response": "The author of 'Pride and Prejudice' is Jane Austen."
     },
     {
         "instruction": "What is the periodic symbol for chlorine?",
@@ -27,7 +27,7 @@
         "instruction": "Correct the punctuation in the sentence.",
         "input": "Its time to go home.",
         "output": "The corrected sentence should be: 'It's time to go home.'",
-        "model_response": "The corrected sentence should be: 'Its time to go home.'"
+        "model_response": "It's time to go home."
     },
     {
         "instruction": "Rewrite the sentence.",
@@ -39,7 +39,7 @@
         "instruction": "Generate a humorous anecdote.",
         "input": "",
         "output": "Why was the math book sad? Because it had too many problems!",
-        "model_response": "Here is an example of a humorous anecdote:\n\nThe children were playing in the park when they came across a leopard."
+        "model_response": "I was at a party last night. A few friends were having a good time. One of them said, \"I'm so tired I could sleep for a year.\""
     },
     {
         "instruction": "Identify the correct spelling: 'recieve' or 'receive'.",
@@ -51,13 +51,13 @@
         "instruction": "Create a sentence using the word 'nostalgia'.",
         "input": "",
         "output": "Nostalgia washed over her as she looked through the old photos.",
-        "model_response": "Her memories of the past were filled with nostalgia."
+        "model_response": "I was very nostalgic for my childhood."
     },
     {
         "instruction": "Classify the following numbers as prime or composite.",
         "input": ": 11, 14, 19.",
         "output": "Prime numbers: 11, 19\nComposite numbers: 14",
-        "model_response": "Prime numbers: 11\nComposite numbers: 19"
+        "model_response": "Prime numbers: 11, 14, 19\nComposite numbers: 19"
     },
     {
         "instruction": "What is the capital of Denmark?",
@@ -81,19 +81,19 @@
         "instruction": "What is the chemical symbol for mercury?",
         "input": "",
         "output": "Hg.",
-        "model_response": "The chemical symbol for mercury is Mg."
+        "model_response": "The chemical symbol for mercury is Hg."
     },
     {
         "instruction": "Describe the process of active transport in cells.",
         "input": "",
         "output": "Active transport is the movement of molecules across a cell membrane from a region of lower concentration to a region of higher concentration, using energy in the form of ATP. This process is crucial for maintaining cellular homeostasis.",
-        "model_response": "Active transport is the process by which cells move from a resting state to a moving one. It typically occurs in the process of dividing or dividing into two or more cells."
+        "model_response": "Transport is the movement of substances through a given area of a cell membrane. It typically occurs by chemical means, such as movement of molecules through a membrane."
     },
     {
         "instruction": "Classify the following items as either solid, liquid, or gas.",
         "input": "Mercury, oxygen, wood",
         "output": "Mercury - Liquid\nOxygen - Gas\nWood - Solid",
-        "model_response": "Solid: Mercury\nLiquid: Oxygen\nGas: Wood"
+        "model_response": "Solid: Mercury\nLiquefied: Oxygen\nGas: Oxygen\nMetals: Carbon\nMetals: Carbon\nMetals: Carbon"
     },
     {
         "instruction": "Convert 3 kilometers to meters.",
@@ -111,19 +111,19 @@
         "instruction": "Provide a synonym for 'excited'.",
         "input": "",
         "output": "A synonym for 'excited' is 'thrilled'.",
-        "model_response": "A synonym for 'excited' is 'thrilled'."
+        "model_response": "A synonym for 'excited' is 'enthusiastic'."
     },
     {
         "instruction": "Generate a sentence that follows the pattern: \"Never have I ever _____ without _____\"",
         "input": "",
         "output": "Never have I ever traveled without a map.",
-        "model_response": "Never have I ever had without having."
+        "model_response": "Never have I ever had without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without without"
     },
     {
         "instruction": "Pick out the adjective from the following list.",
         "input": "run, tall, quickly",
         "output": "The correct adjective from the list is 'tall.'",
-        "model_response": "The adjective from the list is 'quickly'."
+        "model_response": "The adjective from the list is 'quick'."
     },
     {
         "instruction": "Convert 1000 grams to kilograms.",
@@ -141,7 +141,7 @@
         "instruction": "Categorize the given list of animals.",
         "input": "Shark, Dolphin, Trout",
         "output": "Fish: Shark, Trout\nMammals: Dolphin",
-        "model_response": "Fish, Tiger, Tiger Shark, Tiger Dolphin, Trout"
+        "model_response": "Animals: Shark\n\n### Input:\nDolphin\n\nFish: Trout"
     },
     {
         "instruction": "Translate 'library' into Spanish.",
@@ -153,19 +153,19 @@
         "instruction": "Define the term 'hyperbole'.",
         "input": "",
         "output": "Hyperbole is a figure of speech that involves an exaggeration of ideas for the sake of emphasis.",
-        "model_response": "Hyperbole is a figure of speech in which a statement is made with great or exaggerated force or significance."
+        "model_response": "Hyperbole is a word used to describe a statement that is exaggerated or exaggerated in order to make it more dramatic or dramaticistic."
     },
     {
         "instruction": "Translate 'Hello' into Russian.",
         "input": "",
         "output": "\u041f\u0440\u0438\u0432\u0435\u0442 (Privet)",
-        "model_response": "The Russian translation of 'Hello' is '\u0420\u043e\u0441\u0441\u0438\u0438'."
+        "model_response": "The Russian translation of 'Hello' is '\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0430\u0432\u043b\u044f\u0435\u0442' (\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0430\u0432\u043b\u044f\u0435\u0442 \u043f\u0440\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442)."
     },
     {
         "instruction": "Define the term 'kinetic energy'.",
         "input": "",
         "output": "Kinetic energy is the energy that an object possesses due to its motion.",
-        "model_response": "Kinetic energy is the energy that can be generated by a process such as heat or light."
+        "model_response": "Kinetic energy is the force that causes an object to accelerate or decelerate in response to an applied force."
     },
     {
         "instruction": "What is the opposite of 'hot'?",
@@ -189,19 +189,19 @@
         "instruction": "Rewrite the following sentence to replace any clich\u00e9 phrases.",
         "input": "It's a piece of cake",
         "output": "It's very easy.",
-        "model_response": "A piece of cake is a traditional American dessert."
+        "model_response": ".\n\n\nA piece of cake is a cake."
     },
     {
         "instruction": "List five different types of vegetables.",
         "input": "",
         "output": "1. Carrot\n2. Broccoli\n3. Cucumber\n4. Tomato\n5. Spinach",
-        "model_response": "1. Carrot\n2. Tomato\n3. Cucumber\n4. Spinach\n5. Spinach and Tomato"
+        "model_response": "1. Broccoli\n2. Cucumber\n3. Spinach\n4. Tomato\n5. Spinach, Cucumber, and Tomato"
     },
     {
         "instruction": "Convert 7 kilometers to meters.",
         "input": "",
         "output": "7 kilometers is 7000 meters.",
-        "model_response": "7 kilometers is 8000 meters."
+        "model_response": "7 kilometers is 7.07 miles."
     },
     {
         "instruction": "What is the opposite of 'heavy'?",
@@ -213,7 +213,7 @@
         "instruction": "What is the past tense of 'sing'?",
         "input": "",
         "output": "The past tense of 'sing' is 'sang.'",
-        "model_response": "The past tense of 'sing' is 'singed'."
+        "model_response": "The past tense of 'sing' is 'to sing.'"
     },
     {
         "instruction": "What is the molecular formula for carbon dioxide?",
@@ -237,7 +237,7 @@
         "instruction": "Explain what a sonnet is.",
         "input": "",
         "output": "A sonnet is a 14-line poem with a specific rhyme scheme and meter, often written in iambic pentameter.",
-        "model_response": "A sonnet is a poem that begins with a sonnetic phrase, typically a sonnetic phrase such as 'The sun was setting' or 'The moon was setting'."
+        "model_response": "A sonnet is a poem that begins with the words 'I sing.'"
     },
     {
         "instruction": "Generate a sentence using the word 'innovative'.",
@@ -255,37 +255,37 @@
         "instruction": "Translate the phrase 'Where is the bathroom?' into German.",
         "input": "",
         "output": "The German translation of 'Where is the bathroom?' is 'Wo ist die Toilette?'",
-        "model_response": "The German translation of 'Where is the bathroom?' is 'Wie alt bist du?'."
+        "model_response": "The German translation of 'Where is the bathroom?' is 'Wie es \u00fcber?'."
     },
     {
         "instruction": "Generate a past-tense verb that describes a person laughing.",
         "input": "",
         "output": "Laughed.",
-        "model_response": "To laugh."
+        "model_response": "He laughed."
     },
     {
         "instruction": "Generate a sentence using the word 'transient.'",
         "input": "",
         "output": "The transient nature of her visit left a lasting impression.",
-        "model_response": "She was always in the city."
+        "model_response": "She was transported from the park to the library."
     },
     {
         "instruction": "Generate a sentence using the word 'optimistic'.",
         "input": "",
         "output": "He remained optimistic despite the challenges he faced.",
-        "model_response": "She was optimistic about the project."
+        "model_response": "She was optimistic about the future."
     },
     {
         "instruction": "Re-word this sentence using an indirect question.",
         "input": "What time is the meeting?",
         "output": "Could you tell me what time the meeting is?",
-        "model_response": "The meeting will be held at 7:00 PM."
+        "model_response": "The meeting is at 7:00."
     },
     {
         "instruction": "Categorize the following sentence as a statement, a question, or an exclamation.",
         "input": "What a beautiful day!",
         "output": "Exclamation.",
-        "model_response": "A beautiful day!"
+        "model_response": "A statement."
     },
     {
         "instruction": "What is the opposite of 'rich'?",
@@ -297,13 +297,13 @@
         "instruction": "Find a synonym for the given verb.",
         "input": "Begin",
         "output": "Commence",
-        "model_response": "Begin."
+        "model_response": "Begin"
     },
     {
         "instruction": "Edit the given text to ensure all plural nouns are spelled correctly.",
         "input": "The birds sings beautiful songs.",
         "output": "The birds sing beautiful songs.",
-        "model_response": "The birds sing beautiful songs."
+        "model_response": "The birds sings beautiful songs."
     },
     {
         "instruction": "Transform the following sentence into a question using \"could.\"",
@@ -315,25 +315,25 @@
         "instruction": "Classify the following items: bicycle, rose, tiger.",
         "input": "",
         "output": "Vehicles: Bicycle\nPlants: Rose\nAnimals: Tiger",
-        "model_response": "Animals: Tiger\nPlants: Bicycle\nFish: Rose"
+        "model_response": "Animals: Tiger\nPlants: Rose\nElectronics: Bicycle"
     },
     {
         "instruction": "Define the term 'irony'.",
         "input": "",
         "output": "Irony is a figure of speech in which words are used in such a way that their intended meaning is different from the actual meaning of the words.",
-        "model_response": "The term 'irony' is a synonym for sarcasm."
+        "model_response": "The term 'irony' is a synonym for 'silly'."
     },
     {
         "instruction": "Translate 'Welcome' into German.",
         "input": "",
         "output": "The German translation of 'Welcome' is 'Willkommen'.",
-        "model_response": "The German translation of 'Welcome' is 'Wie alt bist du?'."
+        "model_response": "The German translation of 'Welcome' is 'Wie es tut mir?'."
     },
     {
         "instruction": "Explain the primary function of the human heart.",
         "input": "",
         "output": "The primary function of the human heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues and removing carbon dioxide and other wastes.",
-        "model_response": "The primary function of the human heart is to pump blood from the heart to the lungs and to return carbon dioxide from the lungs to the body. It also helps to control blood pressure and to control the heartbeat."
+        "model_response": "The primary function of the human heart is to pump blood to the brain and to supply the body with oxygen."
     },
     {
         "instruction": "Reword the following sentence to the future tense.",
@@ -351,73 +351,73 @@
         "instruction": "Create a sentence using the word 'inevitable'.",
         "input": "",
         "output": "The confrontation was inevitable given the circumstances.",
-        "model_response": "The collapse of the company was inevitable due to poor management."
+        "model_response": "The storm was inevitable."
     },
     {
         "instruction": "Categorize the following sentence as either factual or opinion-based.",
         "input": "Chocolate is the best dessert.",
         "output": "Opinion-based.",
-        "model_response": "The best dessert is chocolate."
+        "model_response": "Categorize the following sentence as either factual or opinion-based."
     },
     {
         "instruction": "What is an antonym of 'old'?",
         "input": "",
         "output": "young.",
-        "model_response": "An antonym of 'old' is 'new'."
+        "model_response": "An antonym of 'old' is 'young'."
     },
     {
         "instruction": "Provide a synonym for 'hardworking'.",
         "input": "",
         "output": "A synonym for 'hardworking' is 'diligent'.",
-        "model_response": "A synonym for 'hardworking' is 'hardworking'."
+        "model_response": "A synonym for 'hardworking' is 'smart'."
     },
     {
         "instruction": "What is the boiling point of sulfur in Celsius?",
         "input": "",
         "output": "The boiling point of sulfur is 444.6 degrees Celsius.",
-        "model_response": "The boiling point of sulfur is -114 degrees Celsius."
+        "model_response": "The boiling point of sulfur is -114.5 degrees Celsius."
     },
     {
         "instruction": "What is the plural form of 'child'?",
         "input": "",
         "output": "The plural form of 'child' is 'children'.",
-        "model_response": "The plural form of 'child' is 'children'."
+        "model_response": "The plural form of 'child' is 'chunk'."
     },
     {
         "instruction": "What is an antonym of 'complicated'?",
         "input": "",
         "output": "An antonym of 'complicated' is 'simple'.",
-        "model_response": "An antonym of 'complicated' is 'simple'."
+        "model_response": "An antonym of 'complicated' is 'easy'."
     },
     {
         "instruction": "Name three forms of water.",
         "input": "",
         "output": "The three forms of water are solid (ice), liquid (water), and gas (steam).",
-        "model_response": "Three forms of water are water that is cool, cool water, and cool water."
+        "model_response": "Three forms of water are water vapor, water, and water vapor."
     },
     {
         "instruction": "Rewrite this sentence as a question.",
         "input": "The dog chased the cat.",
         "output": "Did the dog chase the cat?",
-        "model_response": "The dog chased the cat."
+        "model_response": "What is the name of the cat?"
     },
     {
         "instruction": "Split the following sentence into two declarative sentences: 'The movie was long but interesting.'",
         "input": "",
         "output": "The movie was long. It was interesting.",
-        "model_response": "The movie was long and interesting."
+        "model_response": "The movie was long but interesting."
     },
     {
         "instruction": "Classify the following substances as acid, base, or neutral.",
         "input": "Lemon juice, Soap, Water",
         "output": "Acid: Lemon juice\nBase: Soap\nNeutral: Water",
-        "model_response": "Acid: Soap\nBase: Lemon juice\nNeutral: Soap"
+        "model_response": "Acid: Soap\nBase: Soap\nNegative: Water"
     },
     {
         "instruction": "What is a synonym of 'sad'?",
         "input": "",
         "output": "A synonym for 'sad' is 'unhappy'.",
-        "model_response": "A synonym for 'sad' is 'dreadful'."
+        "model_response": "A synonym for 'sad' is 'angry'."
     },
     {
         "instruction": "Correct any spelling mistakes in the given sentence.",
@@ -429,49 +429,49 @@
         "instruction": "Generate a sentence using the word 'transient'.",
         "input": "",
         "output": "His stay in the city was transient, lasting only a couple of days.",
-        "model_response": "She was always in the city."
+        "model_response": "She was transported from the park to the library."
     },
     {
         "instruction": "Translate 'I am lost' into Italian.",
         "input": "",
         "output": "The Italian translation of 'I am lost' is 'Mi sono perso' (if male) or 'Mi sono persa' (if female).",
-        "model_response": "The Italian translation of 'I am lost' is 'Il \u00e8 l'ospedale \u00e8 l'ospedale'."
+        "model_response": "Il pi\u00f9 pi\u00f9?"
     },
     {
         "instruction": "Classify this text as a technical document or a narrative.",
         "input": "This manual provides instructions for installing the software.",
         "output": "Technical document",
-        "model_response": "This manual provides instructions for installing the software."
+        "model_response": "Technical document"
     },
     {
         "instruction": "Sort the following list in descending order.",
         "input": "10, 2, 25, 16, 7",
         "output": "25, 16, 10, 7, 2.",
-        "model_response": "25, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,"
+        "model_response": ", 3, 3.\n\n\nThe list of 25 is in ascending order."
     },
     {
         "instruction": "Translate 'Can I have some water?' into French.",
         "input": "",
         "output": "Puis-je avoir de l'eau?",
-        "model_response": "The French translation of 'Can I have some water?' is 'Can I have a drink?'"
+        "model_response": "The French translation of 'Can I have some water?' is 'Comment \u00e7a va?'."
     },
     {
         "instruction": "Create a simile with the word 'as cold as'.",
         "input": "",
         "output": "Her hands were as cold as ice.",
-        "model_response": "The simile is as cold as a cucumber."
+        "model_response": "The temperature of 'as cold as' is -38 degrees Celsius."
     },
     {
         "instruction": "Classify the following words by their grammatical categories: swim, beautiful, quickly",
         "input": "",
         "output": "Swim: Verb\nBeautiful: Adjective\nQuickly: Adverb",
-        "model_response": "Swimming: Verb\nBeautiful: Adverb\nQuickly: Adverb"
+        "model_response": ".\n\n\nThe following words are in the following grammatical categories: Verb, Adjective, Adverb, Adverbial, Adjective Adverb, Adverb\n\n### Input:\nswim\n\n\nThe following words are in the following grammatical categories: Adjective, Adverb, Adverb, Adverb"
     },
     {
         "instruction": "Calculate the density of an object with a mass of 15 grams and a volume of 5 cubic centimeters.",
         "input": "",
         "output": "The density of the object is 3 grams per cubic centimeter.",
-        "model_response": "The density of the object is 15 grams per cubic centimeter."
+        "model_response": "The density of the object is 15 grams/cc."
     },
     {
         "instruction": "What is the abbreviation for 'Master of Business Administration'?",
@@ -483,7 +483,7 @@
         "instruction": "Convert the following number from Roman numerals: IX.",
         "input": "",
         "output": "The number IX in Roman numerals is 9.",
-        "model_response": "5 to Roman numerals: 5.\n\n\n5."
+        "model_response": "5 to decimal: 1.5.\n\n\n1.5 is a Roman numeral."
     },
     {
         "instruction": "What is the opposite of 'horizontal'?",
@@ -495,7 +495,7 @@
         "instruction": "Translate 'Where can I buy tickets?' into Italian.",
         "input": "",
         "output": "The Italian translation for 'Where can I buy tickets?' is 'Dove posso comprare i biglietti?'",
-        "model_response": "The Italian translation of 'Where can I buy tickets?' is 'Ti amo'."
+        "model_response": "The Italian translation of 'Where can I buy tickets?' is 'Ti amo?'."
     },
     {
         "instruction": "Rewrite the following sentence to replace any clich\u00e9s.",
@@ -513,7 +513,7 @@
         "instruction": "Generate a sentence using the word 'elucidate'.",
         "input": "",
         "output": "The professor attempted to elucidate the complex topic for his students.",
-        "model_response": "The teacher had a great deal of confidence in her abilities."
+        "model_response": "The teacher had a hard time understanding the lesson."
     },
     {
         "instruction": "Correct the sentence.",
@@ -525,7 +525,7 @@
         "instruction": "What is the formula for calculating work done?",
         "input": "",
         "output": "The formula for calculating work done is work = force \u00d7 distance.",
-        "model_response": "The formula for calculating work done is the product of the total number of hours worked and the total number of paid hours worked."
+        "model_response": "The formula for calculating work done is W = (1 - H)2 + (1 - C)3 + (1 - D)4 + (1 - E)5 + (1 - F)6 + (1 - G)7 + (1 - H)8 + (1 - I)9 + (1 - J)10 + (1 - K)11 + (1 - L)12 + (1 - M)13 + (1 - N)14 + (1 - O)15 + (1 - P)16 + (1 - Q)17 + (1 - R)18 + (1 - S)19 + (1 - T)20 + (1 - U)21 + (1 - V)22 + (1 - W)23 + (1 - X)24 + (1 - Y)25 + (1 - Z)26 + (1 - W)27 + (1 - X)28 + (1 - Y)29 + (1 - Z)30 + (1 - W)31 + (1 - X)32 + (1 - Y)33 + (1 - Z)34 + (1 - W)35 + (1 -"
     },
     {
         "instruction": "What is the chemical formula for ammonium nitrate?",
@@ -543,7 +543,7 @@
         "instruction": "Rewrite the given sentence to describe the same thing in a positive way.",
         "input": "The food was not good.",
         "output": "The food could use some improvement.",
-        "model_response": "The food was not as good as the restaurant."
+        "model_response": "The food was not good."
     },
     {
         "instruction": "What is the opposite of 'lazy'?",
@@ -555,19 +555,19 @@
         "instruction": "Name three essential vitamins for human health.",
         "input": "",
         "output": "1. Vitamin A\n2. Vitamin C\n3. Vitamin D",
-        "model_response": "1. Vitamin B6\n2. Vitamin B12\n3. Vitamin C"
+        "model_response": "1. Vitamin B12\n2. Vitamin C\n3. Vitamin B6"
     },
     {
         "instruction": "Define the term 'simile'.",
         "input": "",
         "output": "A simile is a figure of speech that directly compares two different things, often introduced with the words 'like' or 'as'.",
-        "model_response": "A simile is a figure of speech where the speaker changes the meaning of a word or phrase to make it more or less like the original."
+        "model_response": "A simile is a figurative device used to describe a thing or idea."
     },
     {
         "instruction": "What is the boiling point of chlorine in Celsius?",
         "input": "",
         "output": "The boiling point of chlorine is -34 degrees Celsius.",
-        "model_response": "The boiling point of chlorine is -196 degrees Celsius."
+        "model_response": "The boiling point of chlorine is -196.5 degrees Celsius."
     },
     {
         "instruction": "Translate 'My name is' into French.",
@@ -591,7 +591,7 @@
         "instruction": "What is the formula for calculating force?",
         "input": "",
         "output": "The formula for calculating force is Force = mass x acceleration.",
-        "model_response": "The formula for calculating force is F = 1/2 M."
+        "model_response": "The formula for calculating force is (F = mv\u00b2 + g)f, where m is mass and g is acceleration."
     },
     {
         "instruction": "Generate a sentence using the word 'innovative'.",
@@ -603,37 +603,37 @@
         "instruction": "Generate a sentence using the word 'generous'.",
         "input": "",
         "output": "He is very generous and always helps those in need.",
-        "model_response": "She was very generous with her money."
+        "model_response": "She was very generous and gave the poor man a present."
     },
     {
         "instruction": "What is an antonym of 'sharp'?",
         "input": "",
         "output": "An antonym of 'sharp' is 'dull'.",
-        "model_response": "An antonym of 'sharp' is 'soft'."
+        "model_response": "An antonym of 'sharp' is 'thin'."
     },
     {
         "instruction": "Describe the basic structure of a neuron.",
         "input": "",
         "output": "A neuron consists of three main parts: the cell body, which contains the nucleus; dendrites, which receive signals from other neurons; and an axon, which transmits signals to other neurons, muscles, or glands.",
-        "model_response": "A neuron is a type of synapse in the brain. It is a type of synapse where two or more interacting neurons can fire at the same time."
+        "model_response": "A neuron is a type of synapse in the brain."
     },
     {
         "instruction": "Translate 'see you later' into Spanish.",
         "input": "",
         "output": "Hasta luego",
-        "model_response": "Est\u00e1n leyendo libros."
+        "model_response": "Est\u00e1n leyendo see you later."
     },
     {
         "instruction": "What are the first 10 elements of the Fibonacci sequence?",
         "input": "",
         "output": "0, 1, 1, 2, 3, 5, 8, 13, 21, 34.",
-        "model_response": "1, 3, 5, 9, 12, 3, 3, 5, 3, 4, 7, 3, 3, 5, 3, 3, 4, 3, 3, 5, 3, 4, 3, 4, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3, 4, 3, 5, 3, 4, 3,"
+        "model_response": "The first 10 elements of the Fibonacci sequence are: 1, 3, 5, 7, 11, 13, 15, 21, 3, 5, 8, 11, 17, 19."
     },
     {
         "instruction": "What is an antonym of 'transparent'?",
         "input": "",
         "output": "An antonym of 'transparent' is 'opaque'.",
-        "model_response": "An antonym of 'transparent' is 'indirect'."
+        "model_response": "An antonym of 'transparent' is 'illuminate'."
     },
     {
         "instruction": "What is the past tense of 'think'?",
@@ -645,7 +645,7 @@
         "instruction": "Classify each sentence as either declarative, interrogative, imperative, or exclamatory.",
         "input": "Please open the door.",
         "output": "The classification of the sentence 'Please open the door.' is imperative.",
-        "model_response": "The classifications of the two sentences \"Please open the door\" and \"Please open the door\" are interrogative."
+        "model_response": "Please open the door."
     },
     {
         "instruction": "Rewrite the sentence to use a negative adverb.",
@@ -657,6 +657,6 @@
         "instruction": "Convert 50 miles per hour to kilometers per hour.",
         "input": "",
         "output": "50 miles per hour is approximately 80.47 kilometers per hour.",
-        "model_response": "50 miles per hour is approximately 32.07 kilometers per hour."
+        "model_response": "50 miles per hour is approximately 32.5 kilometers per hour."
     }
 ]
