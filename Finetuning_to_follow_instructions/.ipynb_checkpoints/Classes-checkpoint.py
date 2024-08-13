@@ -418,7 +418,28 @@ def calc_loss_loader(data_loader, model, device, num_batches=None):
         else:
             break
     return total_loss / num_batches
-
+    
+def calc_accuracy_loader(data_loader, model, device, num_batches=None):
+    model.eval()
+    correct_predictions, num_examples = 0, 0
+ 
+    if num_batches is None:
+        num_batches = len(data_loader)
+    else:
+        num_batches = min(num_batches, len(data_loader))
+    for i, (input_batch, target_batch) in enumerate(data_loader):
+        if i < num_batches:
+            input_batch, target_batch = input_batch.to(device), target_batch.to(device)
+ 
+            with torch.no_grad():
+                logits = model(input_batch)[:, -1, :]
+            predicted_labels = torch.argmax(logits, dim=-1)
+ 
+            num_examples += predicted_labels.shape[0]
+            correct_predictions += (predicted_labels == target_batch).sum().item()
+        else:
+            break
+    return correct_predictions / num_examples
 
 def plot_losses(epochs_seen, tokens_seen, train_losses, val_losses):
     fig, ax1 = plt.subplots(figsize=(5, 3))
@@ -439,3 +460,96 @@ def plot_losses(epochs_seen, tokens_seen, train_losses, val_losses):
     fig.tight_layout()  # Adjust layout to make room
     plt.savefig("loss-plot.pdf")
     plt.show()
+
+def train_classifier_simple(model, train_loader, val_loader, optimizer, device, num_epochs, eval_freq, eval_iter, tokenizer):
+    # Initialize lists to track losses and examples seen
+    train_losses, val_losses, train_accs, val_accs = [], [], [], []
+    examples_seen, global_step = 0, -1
+ 
+    # Main training loop
+    for epoch in range(num_epochs):
+        model.train()
+ 
+        for input_batch, target_batch in train_loader:
+            optimizer.zero_grad()
+            loss = calc_loss_batch(input_batch, target_batch, model, device)
+            loss.backward()
+            optimizer.step()
+            examples_seen += input_batch.shape[0]
+            global_step += 1
+ 
+
+            if global_step % eval_freq == 0:
+                train_loss, val_loss = evaluate_model(
+                    model, train_loader, val_loader, device, eval_iter)
+                train_losses.append(train_loss)
+                val_losses.append(val_loss)
+                print(f"Ep {epoch+1} (Step {global_step:06d}): "
+                      f"Train loss {train_loss:.3f}, Val loss {val_loss:.3f}")
+ 
+
+        train_accuracy = calc_accuracy_loader(
+            train_loader, model, device, num_batches=eval_iter
+        )
+        val_accuracy = calc_accuracy_loader(
+            val_loader, model, device, num_batches=eval_iter
+        )
+ 
+        print(f"Training accuracy: {train_accuracy*100:.2f}% | ", end="")
+        print(f"Validation accuracy: {val_accuracy*100:.2f}%")
+        train_accs.append(train_accuracy)
+        val_accs.append(val_accuracy)
+ 
+    return train_losses, val_losses, train_accs, val_accs, examples_seen
+
+class InstructionDataset(Dataset):
+    def __init__(self, data, tokenizer):
+        self.data = data
+        self.encoded_texts = []
+        for entry in data: 
+            instruction_plus_input = format_input(entry)
+            response_text = f"\n\n### Response:\n{entry['output']}"
+            full_text = instruction_plus_input + response_text
+            self.encoded_texts.append(
+                tokenizer.encode(full_text)
+            )
+ 
+    def __getitem__(self, index):
+        return self.encoded_texts[index]
+ 
+    def __len__(self):
+        return len(self.data)
+
+def custom_collate_fn(
+    batch,
+    pad_token_id=50256,
+    ignore_index=-100,
+    allowed_max_length=None,
+    device="cpu"
+):
+    batch_max_length = max(len(item)+1 for item in batch)
+    inputs_lst, targets_lst = [], []
+ 
+    for item in batch:
+        new_item = item.copy()
+        new_item += [pad_token_id]
+        # Pad sequences to max_length
+        padded = new_item + [pad_token_id] * (batch_max_length - len(new_item))
+        inputs = torch.tensor(padded[:-1])  # Truncate the last token for inputs
+        targets = torch.tensor(padded[1:])  # Shift +1 to the right for targets
+ 
+        mask = targets == pad_token_id   #Replace all but the first padding tokens in targets by ignore_index
+        indices = torch.nonzero(mask).squeeze()
+        if indices.numel() > 1:
+            targets[indices[1:]] = ignore_index
+ 
+        if allowed_max_length is not None:
+            inputs = inputs[:allowed_max_length]
+            targets = targets[:allowed_max_length]
+ 
+        inputs_lst.append(inputs)
+        targets_lst.append(targets)
+ 
+    inputs_tensor = torch.stack(inputs_lst).to(device)
+    targets_tensor = torch.stack(targets_lst).to(device)
+    return inputs_tensor, targets_tensor
